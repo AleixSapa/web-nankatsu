@@ -10,10 +10,3 @@ function QueQuieres() {
     if (Partido == 3) { var If3 = prompt(IfPartido1 + Partido) }
     if (Partido = +4) { alert(IF4) }
 }
-
-
-
-
-function Console() {
-    console.log();
-}
