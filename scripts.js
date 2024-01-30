@@ -2,19 +2,24 @@ var GolesNankatsu
 var QuePartidoQuieres = ('Que Partido Queres')
 var IfPartido1 = ('Quantos Goles As Marcado en el partido ');
 var IF4 = ('Eee numes i an tres partits')
-var TotalGolesMarcados = If1 + If2 + If3
-var If1 = prompt(IfPartido1 + Partido)
-var If2 = prompt(IfPartido1 + Partido)
-var If3 = prompt(IfPartido1 + Partido)
+var If1 = (IfPartido1 + Partido);
+var If2 = (IfPartido1 + Partido);
+var If3 = (IfPartido1 + Partido);
+var ComprovationIf1 = false
+var ComprovationIf2 = false
+var ComprovationIf3 = false
+var Mostraesultado
 
 
 function GolesMarcados() {
+    MessagePort('hola')
     var Partido = prompt(QuePartidoQuieres)
-    if (Partido == 1) { If1 }
-    if (Partido == 2) { If2 }
-    if (Partido == 3) { If3 }
+    if (Partido == 1) { prompt(If1) } { ComprovationIf1 = true }
+    if (Partido == 2) { prompt(If2) } { ComprovationIf2 = true }
+    if (Partido == 3) { prompt(If3) } { ComprovationIf3 = true }
     if (Partido == +4) { alert(IF4) }
 }
 function TotalGoles() {
-    alert(TotalGolesMarcados)
+    if (ComprovationIf1 == true) { Mostraesultado + ComprovationIf1 }
+    MessagePort('hola')
 }
