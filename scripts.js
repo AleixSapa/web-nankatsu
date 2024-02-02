@@ -1,25 +1,44 @@
-var GolesNankatsu
-var QuePartidoQuieres = ('Que Partido Queres')
-var IfPartido1 = ('Quantos Goles As Marcado en el partido ');
-var IF4 = ('Eee numes i an tres partits')
-var If1 = (IfPartido1 + Partido);
-var If2 = (IfPartido1 + Partido);
-var If3 = (IfPartido1 + Partido);
-var ComprovationIf1 = false
-var ComprovationIf2 = false
-var ComprovationIf3 = false
-var Mostraesultado
-
-
+var StringQuePartidoQuieres = 'Que Partido Queres'
+var StringPreguntaPartido = 'Cuantos Goles as marcado en el partido ';
+var StringPreguntaPartidoError = 'Eeeh! nomes hi han tres partits';
+var IntSumaGoles
+var DecPomedio
+var IntPartido1 = 0;
+var IntPartido2 = 0;
+var IntPartido3 = 0;
+var QuansPartits = 0;
 function GolesMarcados() {
-    MessagePort('hola')
-    var Partido = prompt(QuePartidoQuieres)
-    if (Partido == 1) { prompt(If1) } { ComprovationIf1 = true }
-    if (Partido == 2) { prompt(If2) } { ComprovationIf2 = true }
-    if (Partido == 3) { prompt(If3) } { ComprovationIf3 = true }
-    if (Partido == +4) { alert(IF4) }
+    var Partido = prompt(StringQuePartidoQuieres)
+    var StringQuestion = (StringPreguntaPartido + Partido);
+
+
+    if (Partido == 1) {
+        if (IntPartido1 == 0) {
+            QuansPartits += 1;
+        }
+        IntPartido1 = parseInt(prompt(StringQuestion));
+    } else if (Partido == 2) {
+        if (IntPartido2) {
+            QuansPartits += 1;
+        }
+        IntPartido2 = parseInt(prompt(StringQuestion));
+    } else if (Partido == 3) {
+        if (IntPartido3) {
+            QuansPartits += 1;
+        }
+        IntPartido3 = parseInt(prompt(StringQuestion))
+    } else {
+        alert(StringPreguntaPartidoError)
+    }
+
+    IntSumaGoles = IntPartido1 + IntPartido2 + IntPartido3;
+
+
 }
 function TotalGoles() {
-    if (ComprovationIf1 == true) { Mostraesultado + ComprovationIf1 }
-    MessagePort('hola')
+    alert(IntSumaGoles)
+}
+function Promedio() {
+    DecPomedio = IntSumaGoles / QuansPartits
+    alert(DecPomedio)
 }
