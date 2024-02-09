@@ -1,7 +1,22 @@
 <!DOCTYPE html>
 
 <head>
+    <style>
+        .logo {
+            width: 100%;
+        }
 
+        .contenedor {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .hijos {
+            float: left;
+            width: 45%;
+            margin: 5px;
+        }
+    </style>
     <script src="scripts.js"></script>
     <title>
 
@@ -10,14 +25,23 @@
 
 <body>
     <header>
-
     </header>
 
 
     <main>
-        <button onclick="GolesMarcados()">Quantos Goles</button>
-        <button onclick="TotalGoles()">Total De Goles</button>
-        <button onclick="Promedio()">Promedio</button>
+        <div class="contenedor">
+            <div class="hijos">
+                <img class="logo"
+                    src="https://ih1.redbubble.net/image.4180842944.6947/st,small,507x507-pad,600x600,f8f8f8.jpg"
+                    alt="">
+            </div>
+            <div class="hijos">
+                <button onclick="GolesMarcados()">Quantos Goles</button>
+                <button onclick="TotalGoles()">Total De Goles</button>
+                <button onclick="Promedio()">Promedio</button>
+            </div>
+        </div>
+
     </main>
 
 
