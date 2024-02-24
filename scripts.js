@@ -3,34 +3,34 @@ var StringPreguntaPartido = 'Cuantos Goles as marcado en el partido ';
 var StringPreguntaPartidoError = 'Eeeh! nomes hi han tres partits';
 var IntSumaGoles
 var DecPomedio
-var ArrayIntGols = [0, 0, 0];
+var ArrayIntGolsNankatsu = [0, 0, 0];
 var QuansPartits = 0;
+var ArrayStringEquipVS = ['', '', '']
+var ArrayIntGolsVS = [0, 0, 0
+]
 function GolesMarcados() {
-    var Partido = prompt(StringQuePartidoQuieres)
-    var StringQuestion = (StringPreguntaPartido + Partido);
-
-
-    if (Partido == 1) {
-        if (ArrayIntGols[0] == 0) {
-            QuansPartits += 1;
-        }
-        ArrayIntGols[0] = parseInt(prompt(StringQuestion));
-    } else if (Partido == 2) {
-        if (ArrayIntGols[1] == 0) {
-            QuansPartits += 1;
-        }
-        ArrayIntGols[1] = parseInt(prompt(StringQuestion));
-    } else if (Partido == 3) {
-        if (ArrayIntGols[2] == 0) {
-            QuansPartits += 1;
-        }
-        ArrayIntGols[2] = parseInt(prompt(StringQuestion))
-    } else {
+    var Partido = parseInt(prompt(StringQuePartidoQuieres));
+    if (Partido > 3) {
         alert(StringPreguntaPartidoError)
+        return
+    }
+    var StringQuestion = (StringPreguntaPartido + Partido);
+    var IntPromtGols = parseInt(prompt(StringQuestion));
+    var IntPosArray = Partido - 1
+
+    if (ArrayIntGolsNankatsu[IntPosArray] == 0) {
+        QuansPartits += 1;
     }
 
-    IntSumaGoles = ArrayIntGols[0] + ArrayIntGols[1] + ArrayIntGols[2];
 
+    ArrayIntGolsNankatsu[IntPosArray] = IntPromtGols;
+
+    IntSumaGoles = ArrayIntGolsNankatsu[0] + ArrayIntGolsNankatsu[1] + ArrayIntGolsNankatsu[2];
+    //    Vs Nankatsu
+    ArrayStringEquipVS[0] = prompt('Qui A Jugat Contra Al Nankatsu')
+    //     Gols Vs Nankatsu
+    var promptVSGols = prompt('El ' + promptVS + ' Quans Gols A Marcat')
+    // Va Guanya ?
 
 }
 function TotalGoles() {
