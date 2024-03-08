@@ -1,0 +1,114 @@
+[
+    {
+        "id": 0,
+        "equip": "Nankatsu",
+        "posicioCampionat": "Quarts de final",
+        "golsMarcats": 15,
+        "contrincant": 1,
+        "quiGuanyaPartit": 0
+    },
+    {
+        "id": 1,
+        "equip": "Hanawa",
+        "posicioCampionat": "Quarts de final",
+        "golsMarcats": 0,
+        "contrincant": 0,
+        "quiGuanyaPartit": 0
+    },
+    {
+        "id": 2,
+        "equip": "Hirado",
+        "posicioCampionat": "Quarts de final",
+        "golsMarcats": 3,
+        "contrincant": 3,
+        "quiGuanyaPartit": 3
+    },
+    {
+        "id": 3,
+        "equip": "Furano",
+        "posicioCampionat": "Quarts de final",
+        "golsMarcats": 4,
+        "contrincant": 2,
+        "quiGuanyaPartit": 3
+    },
+    {
+        "id": 4,
+        "equip": "Musashi",
+        "posicioCampionat": "Quarts de final",
+        "golsMarcats": 5,
+        "contrincant": 5,
+        "quiGuanyaPartit": 4
+    },
+    {
+        "id": 5,
+        "equip": "Shimada",
+        "posicioCampionat": "Quarts de final",
+        "golsMarcats": 1,
+        "contrincant": 4,
+        "quiGuanyaPartit": 4
+    },
+    {
+        "id": 6,
+        "equip": "Meiwa",
+        "posicioCampionat": "Quarts de final",
+        "golsMarcats": 0,
+        "contrincant": 7,
+        "quiGuanyaPartit": 7
+    },
+    {
+        "id": 7,
+        "equip": "Toho",
+        "posicioCampionat": "Quarts de final",
+        "golsMarcats": 6,
+        "contrincant": 6,
+        "quiGuanyaPartit": 7
+    },
+    {
+        "id": 8,
+        "equip": "Nankatsu",
+        "posicioCampionat": "Semifinal",
+        "golsMarcats": 13,
+        "contrincant": 9,
+        "quiGuanyaPartit": 9
+    },
+    {
+        "id": 9,
+        "equip": "Furano",
+        "posicioCampionat": "Semifinal",
+        "golsMarcats": 0,
+        "contrincant": 9,
+        "quiGuanyaPartit": 8
+    },
+    {
+        "id": 10,
+        "equip": "Musashi",
+        "posicioCampionat": "Semifinal",
+        "golsMarcats": 3,
+        "contrincant": 11,
+        "quiGuanyaPartit": 11
+    },
+    {
+        "id": 11,
+        "equip": "Toho",
+        "posicioCampionat": "Semifinal",
+        "golsMarcats": 4,
+        "contrincant": 9,
+        "quiGuanyaPartit": 10
+    },
+    {
+        "id": 12,
+        "equip": "Nankatsu",
+        "posicioCampionat": "Final",
+        "golsMarcats": 15,
+        "contrincant": 13,
+        "quiGuanyaPartit": 12
+    },
+    {
+        "id": 13,
+        "equip": "Toho",
+        "posicioCampionat": "Final",
+        "golsMarcats": 0,
+        "contrincant": 12,
+        "quiGuanyaPartit": 12
+    }
+]
