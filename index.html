@@ -2,22 +2,8 @@
 
 <head>
 
-    <style>
-        .logo {
-            width: 100%;
-        }
+    <link rel="stylesheet" href="css/style.css">
 
-        .contenedor {
-            width: 100%;
-            overflow: hidden;
-        }
-
-        .hijos {
-            float: left;
-            width: 45%;
-            margin: 5px;
-        }
-    </style>
     <script src="js/scripts.js"></script>
     <title>
 
@@ -26,10 +12,25 @@
 
 <body>
     <header>
+        <div class="dropdown">
+            <button>Menú</button>
+            <div class="dropdown-content">
+                <a href="index.html">Inicio</a>
+                <a href="imagenes.html">Imagenes</a>
+                <a href="calendario.html">Calendario</a>
+                <a href="campionat.html">Campionat</a>
+                <a>-------------------</a>
+                <a onclick="GolesMarcados()">Quantos Goles</a>
+                <a onclick="TotalGoles()">Total De Goles</a>
+                <a onclick="Promedio()">Promedio</a>
+
+            </div>
+        </div>
     </header>
 
 
     <main>
+
         <div class="contenedor">
             <div class="hijos">
                 <img class="logo"
@@ -37,12 +38,7 @@
                     alt="">
             </div>
             <div class="hijos">
-                <button onclick="GolesMarcados()">Quantos Goles</button>
-                <button onclick="TotalGoles()">Total De Goles</button>
-                <button onclick="Promedio()">Promedio</button>
-                <button> <a href="imagenes.html">Imagenes</a></button>
-                <button><a href="calendario.html">Calendario</a></button>
-                <button><a href="campionat.html">Campionat</a></button>
+                <h1>Nankatsu Fubol Club</h1>
             </div>
         </div>
 
