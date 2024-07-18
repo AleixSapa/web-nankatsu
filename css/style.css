@@ -16,6 +16,7 @@
     float: left;
     width: 45%;
     margin: 5px;
+    text-align: center;
 }
 
 
@@ -51,7 +52,7 @@
 
 /* Estilos para los elementos de anclaje dentro del menú desplegable */
 .dropdown-content a {
-    color: black;
+    color: rgb(20, 20, 194);
     /* Color del texto */
     padding: 12px 16px;
     /* Relleno alrededor del texto */

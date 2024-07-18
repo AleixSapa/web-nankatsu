@@ -1,0 +1,28 @@
+h1 {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-vertical {
+    writing-mode: vertical-rl;
+    /* Texto vertical de arriba a abajo */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    font-size: 24px;
+    /* Ajusta el tamaño del texto según sea necesario */
+    font-weight: bold;
+    /* Puedes ajustar la negrita según lo desees */
+    position: fixed;
+    /* Posición fija para mantener el texto en el centro */
+    top: 50%;
+    /* Alinea la parte superior del texto al 50% del viewport */
+    transform: translateY(-50%);
+    /* Centra verticalmente el texto */
+}
